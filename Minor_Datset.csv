@@ -1,0 +1,300 @@
+﻿State Name,District Name,Subdistrict Name,Facility Type,Name,Facility Address,Latitude,Longitude,ActiveFlag_C,NOTIONAL_PHYSICAL,Location Type,Type Of Facility,Nin_N
+A & N Islands,Nicobar,Nancowry,chc,CHC Nancowry,Kamorta,7.96109,93.5589,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,chc,CHC Bambooflat,NA,11.7303,92.65003,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,chc,CHC Rangat,NA,12.71609,92.90579,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,chc,CHC Diglipur,NA,13.30682,92.9411,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Car Nicobar,dis_h,BJR Hospital,NA,9.14893,92.75578,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Port Blair,dis_h,G.B.Pant Hospital,NA,11.68438,92.6987,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,dis_h,Dr. R.P.Hospital,NA,13.02956,92.84845,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Great Nicobar (Campbell Bay),phc,PHC Campbell Bay,NA,6.98522,93.84627,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Great Nicobar (Campbell Bay),phc,PHC Gandhinagar,NA,6.98523,93.84628,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,phc,PHC Katchal,NA,7.92438,93.40207,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,phc,PHC Teressa,NA,7.96108,93.55889,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Little Andaman,phc,PHC R K Pur,NA,10.70112,92.47363,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Little Andaman,phc,PHC Hut Bay,NA,10.70116,92.47367,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,phc,PHC Manglutan,NA,11.60279,92.66471,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,phc,PHC Chouldari,NA,11.60279,92.66471,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,phc,PHC Tushnabad,NA,11.60281,92.66473,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Port Blair,phc,PHC Neil Island,NA,11.62719,92.70317,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Port Blair,phc,UHC Shadipur,NA,11.6589225,92.7474876,Y,Physical,Urban,Public,NA
+A & N Islands,South Andaman,Port Blair,phc,UHC Junglighat,NA,11.661875,92.730446,Y,Physical,Urban,Public,NA
+A & N Islands,South Andaman,Port Blair,phc,UHC Delanipur,NA,11.678023,92.72151,Y,Physical,Urban,Public,NA
+A & N Islands,South Andaman,Port Blair,phc,UHC Haddo,NA,11.678023,92.72151,Y,Physical,Urban,Public,NA
+A & N Islands,South Andaman,Ferrargunj,phc,PHC Wimberlygunj,NA,11.73032,92.65005,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Port Blair,phc,PHC Havelock,NA,11.9968,92.99096,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,phc,PHC Ferrargunj,NA,12.00999,92.6301,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,phc,PHC Billiground,NA,12.628,92.82398,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,phc,PHC Baratang,NA,12.62802,92.82399,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,phc,PHC Kadamtala,NA,12.68803,92.8118,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,phc,PHC Tugapur,NA,13.02954,92.84843,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,phc,PHC Kalighat,NA,13.30683,92.94111,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,phc,PHC Radha Nagar,NA,13.30683,92.94111,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,phc,PHC Kishori Nagar,NA,13.30686,92.94114,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Minyuk,NA,7.96102,93.55883,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Luxi,NA,7.96102,93.55883,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Chowra,NA,7.96102,93.55883,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Alorong,NA,7.96102,93.55883,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Enam,NA,7.96102,93.55883,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC E Wall,NA,7.9768474,93.5509004,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Upper Katchal,NA,7.9768474,93.5509004,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Meenakshi Ram Nagar,NA,7.9768474,93.5509004,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Balu Basti,NA,7.9768494,93.5508984,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Munak,NA,7.9768494,93.5508984,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Tapong,NA,7.9768494,93.5508984,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Vikas Nagar,NA,7.9768494,93.5508984,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Champin,NA,7.9768494,93.5508984,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Changua,NA,7.9768494,93.5508984,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Hitui,NA,7.9768494,93.5508984,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Daring,NA,7.9768494,93.5508984,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Kakana,NA,7.9768494,93.5508984,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Bada Inak,NA,7.9768494,93.5508984,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Nancowry,sub_cen,SC Pilpillow,NA,7.9768494,93.5508984,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Great Nicobar (Campbell Bay),sub_cen,SC Rajiv Nagar,NA,7.9768504,93.5508974,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Great Nicobar (Campbell Bay),sub_cen,SC Govind Nagar,NA,7.9768504,93.5508974,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Great Nicobar (Campbell Bay),sub_cen,SC Chingum Basti,NA,7.9768504,93.5508974,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Great Nicobar (Campbell Bay),sub_cen,SC Kamal Basti,NA,7.9768504,93.5508974,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Great Nicobar (Campbell Bay),sub_cen,SC Joginder Nagar,NA,7.9768504,93.5508974,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Great Nicobar (Campbell Bay),sub_cen,SC Afra Bay,NA,7.9768504,93.5508974,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Great Nicobar (Campbell Bay),sub_cen,SC Makachua,NA,7.9768504,93.5508974,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Great Nicobar (Campbell Bay),sub_cen,SC Pillalow,NA,7.9768504,93.5508974,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Great Nicobar (Campbell Bay),sub_cen,SC Laxmi Nagar,NA,7.9768514,93.5508964,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Great Nicobar (Campbell Bay),sub_cen,SC Shastri Nagar,NA,7.9768514,93.5508964,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Car Nicobar,sub_cen,SC Big Lapathy,NA,9.14886,92.75571,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Car Nicobar,sub_cen,SC Kinyuka,NA,9.14886,92.75571,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Car Nicobar,sub_cen,SC Arong,NA,9.14886,92.75571,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Car Nicobar,sub_cen,SC Sawai,NA,9.14886,92.75571,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Car Nicobar,sub_cen,SC Kakana,NA,9.14886,92.75571,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Car Nicobar,sub_cen,SC Centre Mus,NA,9.14886,92.75571,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Car Nicobar,sub_cen,SC Teetop,NA,9.14886,92.75571,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Car Nicobar,sub_cen,SC Kimious,NA,9.14886,92.75571,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Car Nicobar,sub_cen,SC Malacca,NA,9.14886,92.75571,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Car Nicobar,sub_cen,SC Tapoiming,NA,9.14886,92.75571,Y,Physical,Rural,Public,NA
+A & N Islands,Nicobar,Car Nicobar,sub_cen,SC Kinmai,NA,9.14886,92.75571,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Little Andaman,sub_cen,SC Netaji Nagar,NA,10.70111,92.47362,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Little Andaman,sub_cen,SC Ongi Tekri,NA,10.70111,92.47362,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Little Andaman,sub_cen,SC Farm Tekri,NA,10.70111,92.47362,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Little Andaman,sub_cen,SC Harminder Bay,NA,10.70111,92.47362,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Little Andaman,sub_cen,SC V K Pur,NA,10.70111,92.47362,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Little Andaman,sub_cen,SC Rabinder Nagar,NA,10.70111,92.47362,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Little Andaman,sub_cen,SC Dugong Creek,NA,10.70111,92.47362,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Guptapara,NA,11.5580381,92.6586699,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Wandoor,NA,11.5981339,92.6246693,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Nayasehar,NA,11.5981389,92.62466,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Temple Meyo,NA,11.60273,92.66465,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Mithakhari,NA,11.60273,92.66465,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Namunaghar,NA,11.60273,92.66465,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Port Blair,sub_cen,SC Teylrabad,NA,11.60273,92.66465,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Port Blair,sub_cen,SC Carbyn Quarry,NA,11.60273,92.66465,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Port Blair,sub_cen,SC Brichgunj,NA,11.60273,92.66465,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Port Blair,sub_cen,SC Sitapur,NA,11.6271,92.703008,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Shore Point,NA,11.73023,92.64996,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Stewart Gunj,NA,11.73023,92.64996,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Tsunami Pahad,NA,11.73023,92.64996,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Nayapuram,NA,11.73023,92.64996,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Hopetown,NA,11.73027,92.64996,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Port Blair,sub_cen,SC Kalapather,NA,11.99673,92.9909,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Port Blair,sub_cen,SC Krishna Nagar,NA,11.99674,92.9909,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Port Blair,sub_cen,SC Strait Island,NA,11.99674,92.9909,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Mathura,NA,12.00994,92.63005,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Miletilak,NA,12.00994,92.63005,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Jirkatang II,NA,12.00994,92.63005,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Manarghat,NA,12.00994,92.63005,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Shoal Bay XII,NA,12.00994,92.63005,Y,Physical,Rural,Public,NA
+A & N Islands,South Andaman,Ferrargunj,sub_cen,SC Shoal Bay XIX,NA,12.00994,92.63005,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,sub_cen,SC Betapur,NA,12.26033,92.8013722,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,sub_cen,SC Dharmapur,NA,12.26033,92.8013722,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,sub_cen,SC Bakultala,NA,12.260332,92.8013702,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,sub_cen,SC Kataidera,NA,12.260332,92.8013702,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,sub_cen,SC Phooltala,NA,12.260332,92.8013702,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,sub_cen,SC Uttara Corner,NA,12.260332,92.8013702,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,sub_cen,SC Panchwati,NA,12.260333,92.8013692,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,sub_cen,SC Nimbudera,NA,12.62794,92.82391,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,sub_cen,SC Flat Bay,NA,12.62794,92.82391,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,sub_cen,SC Adazig,NA,12.62794,92.82391,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,sub_cen,SC Oral Katcha,NA,12.62794,92.82391,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,sub_cen,SC Jarawa Creek,NA,12.62794,92.82391,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,sub_cen,SC Nimbutala,NA,12.71604,92.90574,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,sub_cen,SC Dashrathpur,NA,12.71604,92.90574,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,sub_cen,SC Sabri,NA,12.71604,92.90574,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,sub_cen,SC Kalsi,NA,12.71604,92.90574,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Rangat,sub_cen,SC Kaushalya Nagar,NA,12.71604,92.90574,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,sub_cen,SC Rampur,NA,13.02948,92.84837,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,sub_cen,SC Webi,NA,13.02948,92.84837,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,sub_cen,SC Mohanpur,NA,13.02948,92.84837,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,sub_cen,SC Karmatang,NA,13.02948,92.84837,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,sub_cen,SC Tugapur VI,NA,13.02948,92.84837,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,sub_cen,SC Bajota,NA,13.02948,92.84837,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,sub_cen,SC Chainpur,NA,13.02948,92.84837,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,sub_cen,SC Hanspuri,NA,13.02948,92.84837,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Mayabunder,sub_cen,SC Burmadera,NA,13.02948,92.84837,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Paschim Sagar,NA,13.30677,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Ganesh Nagar,NA,13.30677,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Gandhi Nagar,NA,13.30677,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Smith Island,NA,13.30677,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Shibpur,NA,13.30677,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC D B Gram,NA,13.30677,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Sita Nagar I,NA,13.30677,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Sita Nagar II,NA,13.30677,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Nabagram,NA,13.30677,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Nischintapur,NA,13.30677,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Jagannath Dera,NA,13.30677,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Milangram,NA,13.30677,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Laxmipur,NA,13.30677,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Kishori Nagar,NA,13.30677,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Aerial Bay,NA,13.306771,92.94105,Y,Physical,Rural,Public,NA
+A & N Islands,North and Middle Andaman,Diglipur,sub_cen,SC Ram Nagar,NA,22.5190465,88.3437826,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Chittoor,Bangarupalem,chc,Bangarupalem,NA,12.70286,78.3738,Y,Physical,Rural,Public,1111654826
+Andhra Pradesh,Chittoor,Punganur,chc,AH PUNGANUR,NA,13.217176,79.100329,Y,Physical,Urban,Public,1111657431
+Andhra Pradesh,Chittoor,Puttur,chc,Puttur,NA,13.4383801,79.5519144,Y,Physical,Urban,Public,1527117350
+Andhra Pradesh,Chittoor,Satyavedu,chc,Satyavedu,NA,13.4434026,79.9605317,Y,Physical,Rural,Public,1111641831
+Andhra Pradesh,Chittoor,P  Kothakota,chc,P.Kothakota,NA,13.4663,79.1362,Y,Physical,Rural,Public,1111583579
+Andhra Pradesh,Chittoor,Sadum,chc,Sadum,NA,13.550014,78.499986,Y,Physical,Rural,Public,2141253357
+Andhra Pradesh,Chittoor,Chandragiri,chc,Chandragiri,NA,13.588112,79.315572,Y,Physical,Rural,Public,1111655781
+Andhra Pradesh,Chittoor,Kalikiri,chc,Kalikiri,NA,13.6186563,78.7929932,Y,Physical,Rural,Public,1111574669
+Andhra Pradesh,Chittoor,Vayalpadu,chc,Vayalpadu,NA,13.634402,78.6248818,Y,Physical,Rural,Public,1111574636
+Andhra Pradesh,Chittoor,Chinnagottigallu,chc,Chinnagottigallu,NA,13.6363,79.094,Y,Physical,Rural,Public,1111575740
+Andhra Pradesh,Chittoor,Piler,chc,Piler,NA,13.6549831,78.9444641,Y,Physical,Rural,Public,1111657670
+Andhra Pradesh,Chittoor,Thambalapalli,chc,Thambalapalli,NA,13.822054,78.448906,Y,Physical,Rural,Public,2331751160
+Andhra Pradesh,Nellore,Naidupeta,chc,Naidupeta,NA,13.895988,79.884038,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Anantapur,Madakasira,chc,Madakasira,NA,13.940279,77.271717,Y,Physical,Rural,Public,1111634422
+Andhra Pradesh,Cuddapah,Rly. Kodur,chc,Rly.Kodur,NA,13.952397,79.35013,Y,Physical,Rural,Public,6658834533
+Andhra Pradesh,Nellore,Venkatagiri,chc,Venkatagiri,NA,13.9667,79.5833,Y,Physical,Urban,Public,NA
+Andhra Pradesh,Nellore,Vakadu,chc,Vakadu,NA,14.002536,80.070953,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Nellore,Kota,chc,Kota,NA,14.0333,80.05,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Cuddapah,Rayachoty,chc,Rayachoty,NA,14.058546,78.751886,Y,Physical,Urban,Public,1111656771
+Andhra Pradesh,Anantapur,Penukonda,chc,Penukonda,NA,14.084431,77.597323,Y,Physical,Rural,Public,1111644322
+Andhra Pradesh,Anantapur, Nallamada,chc,Nallamada,NA,14.141684,77.983144,Y,Physical,Rural,Public,1111644355
+Andhra Pradesh,Cuddapah,L.R.Palli,chc,L.R.Pally,NA,14.18583,78.698517,Y,Physical,Rural,Public,1111656474
+Andhra Pradesh,Cuddapah,Rajampeta,chc,Rajampeta,NA,14.196678,79.156632,Y,Physical,Urban,Public,1111636674
+Andhra Pradesh,Nellore,Rapur,chc,Rapur,NA,14.199815,79.533648,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Nellore,Venkatachalam,chc,Venkatachalam,NA,14.3167,79.9167,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Cuddapah,Vempalli,chc,Vempalli,NA,14.366152,78.45856,Y,Physical,Rural,Public,1111656862
+Andhra Pradesh,Nellore,Podalakur,chc,Podalakur,NA,14.38409,79.732407,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Anantapur, Dharmavaram,chc,Dharmavaram,NA,14.413745,77.712619,Y,Physical,Urban,Public,NA
+Andhra Pradesh,Nellore,Sullurpeta,chc,Sullurpeta,NA,14.442599,79.986456,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Nellore,Udayagiri,chc,Udayagiri,NA,14.462524,79.247131,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Nellore,Indukurpeta,chc,Indukurpeta,NA,14.471268,80.099583,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Cuddapah,Sidhout,chc,Sidhout,NA,14.473862,78.968418,Y,Physical,Rural,Public,1111638233
+Andhra Pradesh,Nellore,Kovur,chc,Kovur,NA,14.501208,79.988128,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Nellore,Buchi,chc,Buchi,NA,14.532321,79.881404,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Anantapur,Kalyandurg,chc,Kalyandurg,NA,14.55,77.1,Y,Physical,Rural,Public,1111644140
+Andhra Pradesh,Cuddapah,Chennur,chc,Chennur,NA,14.56282,78.801949,Y,Physical,Rural,Public,5146434484
+Andhra Pradesh,Cuddapah,Kamalapuram,chc,Kamalapuram,NA,14.59964,78.672852,Y,Physical,Rural,Public,1111656383
+Andhra Pradesh,Anantapur, C.K.Palli,chc,C.K.Pally,NA,14.637509,77.610651,Y,Physical,Rural,Public,1111634455
+Andhra Pradesh,Nellore,Allur,chc,Allur,NA,14.685327,80.054889,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Anantapur,Rayadurg,chc,Rayadurg,NA,14.696869,76.85465,Y,Physical,Urban,Public,NA
+Andhra Pradesh,Cuddapah,Mydukur,chc,Mydukur,NA,14.729573,78.73345,Y,Physical,Rural,Public,1111656839
+Andhra Pradesh,Cuddapah,Badvel,chc,Badvel,NA,14.73757,79.063179,Y,Physical,Urban,Public,1111655872
+Andhra Pradesh,Anantapur, Singanamala,chc,Singanamala,NA,14.8,77.7167,Y,Physical,Rural,Public,1111638415
+Andhra Pradesh,Anantapur, Kanekal,chc,Kanekal,NA,14.809323,77.069398,Y,Physical,Rural,Public,1111644264
+Andhra Pradesh,Nellore,Vinjamur,chc,Vinjamur,NA,14.8333,79.5833,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Cuddapah,J.Madugu,chc,J.Madugu,NA,14.83914,78.38092,Y,Physical,Urban,Public,1112183189
+Andhra Pradesh,Anantapur,Tadipatri,chc,Tadipatri,NA,14.907027,78.00927,Y,Physical,Urban,Public,NA
+Andhra Pradesh,Anantapur, Uravakonda,chc,Uravakonda,NA,14.946038,77.260484,Y,Physical,Rural,Public,1111657647
+Andhra Pradesh,Anantapur,Pamidi,chc,Pamidi,NA,14.952117,77.594796,Y,Physical,Rural,Public,1111633341
+Andhra Pradesh,Cuddapah,Porumamilla,chc,Porumamilla,NA,14.995104,78.988208,Y,Physical,Rural,Public,1683782435
+Andhra Pradesh,Prakasam,Pamur,chc,Pamur,NA,15.096035,79.411307,Y,Physical,Rural,Public,1112182439
+Andhra Pradesh,Anantapur,Konakondla,chc,Konakondla,NA,15.1053,77.364,Y,Physical,Rural,Public,1111685424
+Andhra Pradesh,Anantapur,Gooty,chc,Gooty SDH,NA,15.122948,77.632559,Y,Physical,Urban,Public,NA
+Andhra Pradesh,Kurnool,ALLAGADDA,chc,Allagadda,NA,15.134484,78.503172,Y,Physical,Rural,Public,1113717175
+Andhra Pradesh,Prakasam,Ulavapadu,chc,Ulavapadu,NA,15.168059,80.007377,Y,Physical,Rural,Public,1112181688
+Andhra Pradesh,Kurnool,OWK,chc,Owk,NA,15.208364,78.117957,Y,Physical,Rural,Public,1113761272
+Andhra Pradesh,Kurnool,KOILKUNTLA,chc,Koilkuntla,NA,15.2333,78.3167,Y,Physical,Rural,Public,1113735656
+Andhra Pradesh,Kurnool,BANAGANAPALLY,chc,Banaganapally,NA,15.318103,78.225545,Y,Physical,Rural,Public,1113722456
+Andhra Pradesh,Prakasam,Giddalur,chc,Giddalur,NA,15.376358,78.925086,Y,Physical,Urban,Public,1112176373
+Andhra Pradesh,Kurnool,ALUR,chc,Alur,NA,15.394308,77.226665,Y,Physical,Rural,Public,1113722183
+Andhra Pradesh,Kurnool,DHONE,chc,Dhone,NA,15.395984,77.872719,Y,Physical,Urban,Public,NA
+Andhra Pradesh,Kurnool,PATHIKONDA,chc,Pathikonda,NA,15.396818,77.500719,Y,Physical,Rural,Public,1113722274
+Andhra Pradesh,Prakasam,Kanigiri,chc,Kanigiri,NA,15.404765,79.506713,Y,Physical,Urban,Public,1112175862
+Andhra Pradesh,Prakasam,Kondepi,chc,Kondepi,NA,15.412809,79.856283,Y,Physical,Rural,Public,1112181381
+Andhra Pradesh,Prakasam,Urban Health Facilities,chc,MCH Ongole,NA,15.505723,80.049922,Y,Physical,Urban,Public,1112175748
+Andhra Pradesh,Kurnool,PANYAM,chc,Panyam,NA,15.5167,78.35,Y,Physical,Rural,Public,1113722423
+Andhra Pradesh,Kurnool,VELDURTHY,chc,Veldurthy,NA,15.550873,77.931028,Y,Physical,Rural,Public,1113761181
+Andhra Pradesh,Prakasam,Chimakurthy,chc,Chimakurthy,NA,15.585537,79.867181,Y,Physical,Rural,Public,1112178718
+Andhra Pradesh,Prakasam,Cumbum,chc,Cumbum,NA,15.589821,79.112513,Y,Physical,Rural,Public,1112176431
+Andhra Pradesh,Prakasam,Podili,chc,Podili,NA,15.607035,79.614627,Y,Physical,Rural,Public,1112178627
+Andhra Pradesh,Kurnool,ADONI,chc,MCH Adoni,NA,15.632223,77.272837,Y,Physical,Urban,Public,3162112761
+Andhra Pradesh,Kurnool,ORVAKAL,chc,Orvakal,NA,15.683194,78.174492,Y,Physical,Rural,Public,1113735714
+Andhra Pradesh,Kurnool,KODUMUR,chc,Kodumur,NA,15.686007,77.770956,Y,Physical,Rural,Public,1113722241
+Andhra Pradesh,Kurnool,VELUGODU,chc,Velugodu,NA,15.718312,78.574602,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Kurnool,YEMMIGANUR,chc,Yemmiganur,NA,15.764199,77.475933,Y,Physical,Urban,Public,NA
+Andhra Pradesh,Prakasam,Darsi,chc,Darsi,NA,15.769996,79.679447,Y,Physical,Rural,Public,1112178569
+Andhra Pradesh,Krishna,Guduru,chc,Guduru,NA,15.77,77.8,Y,Physical,Rural,Public,1111641385
+Andhra Pradesh,Kurnool,MIDTHUR,chc,Midthur,NA,15.770911,78.2889,Y,Physical,Rural,Public,1113722365
+Andhra Pradesh,Kurnool,YALLUR,chc,Yallur,NA,15.79877,78.033808,Y,Physical,Rural,Public,1113758518
+Andhra Pradesh,Prakasam,Addanki,chc,Addanki,NA,15.810707,79.972424,Y,Physical,Rural,Public,1111753461
+Andhra Pradesh,Prakasam,Y.Palem,chc,Y.Palem,NA,15.850229,80.283346,Y,Physical,Rural,Public,1112182280
+Andhra Pradesh,Kurnool,NANDIKOTKUR,chc,Nandikotkur,NA,15.855593,78.264589,Y,Physical,Rural,Public,1113722332
+Andhra Pradesh,Kurnool,ATMAKUR,chc,Atmakur,NA,15.879042,78.585261,Y,Physical,Rural,Public,1113735623
+Andhra Pradesh,Prakasam,Dornala,chc,Dornala,NA,15.885931,79.135122,Y,Physical,Rural,Public,1112182348
+Andhra Pradesh,Guntur,Nizampatnam,chc,Nizampatnam,NA,15.905502,80.668243,Y,Physical,Rural,Public,1111637367
+Andhra Pradesh,Anantapur, Tanakal,chc,Tanekal,NA,15.9129,79.739987,Y,Physical,Rural,Public,1111644538
+Andhra Pradesh,Prakasam,Parchur,chc,Parchur,NA,15.9667,80.275,Y,Physical,Rural,Public,1112182371
+Andhra Pradesh,Prakasam,Martur,chc,Martur,NA,15.993843,80.103772,Y,Physical,Rural,Public,1112181837
+Andhra Pradesh,Guntur,Nagaram,chc,Nagaram,NA,16.004444,80.724444,Y,Physical,Rural,Public,1111637243
+Andhra Pradesh,Krishna,Avanigadda,chc,AH Avanigadda,NA,16.021427,80.915944,Y,Physical,Rural,Public,1111638357
+Andhra Pradesh,Guntur,Vinukonda,chc,Vinukonda,NA,16.05684,79.745332,Y,Physical,Urban,Public,1111637425
+Andhra Pradesh,Guntur,Ponnuru,chc,Ponnuru,NA,16.068599,80.548167,Y,Physical,Urban,Public,1113225740
+Andhra Pradesh,Kurnool,SUNNIPENTA,chc,Sunnipenta,NA,16.07723,78.909021,Y,Physical,Rural,Public,1113761249
+Andhra Pradesh,Guntur,Chilakaluripeta,chc,Chilakaluripeta,NA,16.08917,80.16722,Y,Physical,Urban,Public,1111646756
+Andhra Pradesh,Krishna,Challapalli,chc,Challapalli,NA,16.114817,80.929068,Y,Physical,Rural,Public,1111585343
+Andhra Pradesh,Guntur,Vemuru,chc,Vemuru,NA,16.1775,80.7425,Y,Physical,Rural,Public,1111636823
+Andhra Pradesh,Guntur,Prathipadu,chc,Prathipadu,NA,16.187778,80.339167,Y,Physical,Rural,Public,1113225773
+Andhra Pradesh,Guntur,Ipur,chc,Ipuru,NA,16.2333,79.8,Y,Physical,Rural,Public,1111637185
+Andhra Pradesh,Guntur,Kollipara,chc,Kollipara,NA,16.287735,80.751927,Y,Physical,Rural,Public,7458446528
+Andhra Pradesh,Guntur,Sattenapalli,chc,Sattenapalli,NA,16.295568,80.405141,Y,Physical,Urban,Public,1253575250
+Andhra Pradesh,Guntur,PV Palem,chc,PV Palem,NA,16.306652,80.43654,Y,Physical,Rural,Public,8781661445
+Andhra Pradesh,Guntur,Repalle,chc,Repalle,NA,16.320267,80.452817,Y,Physical,Urban,Public,7215315651
+Andhra Pradesh,Krishna,Vuyyuru,chc,Vuyyuru,NA,16.36,80.85,Y,Physical,Rural,Public,1111585731
+Andhra Pradesh,Krishna,Kankipadu,chc,Kankipadu,NA,16.43,80.76,Y,Physical,Rural,Public,8341464454
+Andhra Pradesh,West Godavari,Narasapur,chc,AH Narasapur,NA,16.432983,81.69662,Y,Physical,Urban,Public,NA
+Andhra Pradesh,Guntur,Urban Health Facilities,chc,Mangalagiri,NA,16.43491,80.568769,Y,Physical,Urban,Public,6432838412
+Andhra Pradesh,Guntur,Peddakurapadu,chc,Pedakurapadu,NA,16.471332,80.254992,Y,Physical,Rural,Public,1111578652
+Andhra Pradesh,East Godavari,RAZOLU,chc,Razolu,NA,16.474326,81.840196,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Guntur,Macherla,chc,Macherla,NA,16.48,79.43,Y,Physical,Urban,Public,1113225476
+Andhra Pradesh,East Godavari,Allavaram,chc,Allavaram,NA,16.517071,81.988491,Y,Physical,Rural,Public,1111634273
+Andhra Pradesh,West Godavari,Palacole,chc,AH Palacole,NA,16.517455,81.725342,Y,Physical,Urban,Public,NA
+Andhra Pradesh,Krishna,Gannavaram,chc,Gannavaram,NA,16.54,80.8,Y,Physical,Rural,Public,1111642284
+Andhra Pradesh,West Godavari,Bhimavaram,chc,AH Bhimavaram,NA,16.54541,81.531578,Y,Physical,Urban,Public,NA
+Andhra Pradesh,Krishna,Kaikaluru,chc,Kaikaluru,NA,16.55,81.21,Y,Physical,Rural,Public,1111642730
+Andhra Pradesh,Guntur,Gurazala,chc,Gurazala,NA,16.555688,79.636175,Y,Physical,Rural,Public,1111636765
+Andhra Pradesh,Guntur,Macherla,chc,Vijayapuri South,NA,16.55796,79.308528,Y,Physical,Rural,Public,8415674731
+Andhra Pradesh,Guntur,Amaravathi,chc,Amaravathi,NA,16.572983,80.357513,Y,Physical,Rural,Public,1113224818
+Andhra Pradesh,West Godavari,Akividu,chc,Akiveedu,NA,16.582315,81.378377,Y,Physical,Rural,Public,NA
+Andhra Pradesh,East Godavari,P GANNAVARAM,chc,P.Gannavaram,NA,16.589125,81.890514,Y,Physical,Rural,Public,8813544189
+Andhra Pradesh,West Godavari,Achanta,chc,Achanta,NA,16.602036,81.807693,Y,Physical,Rural,Public,NA
+Andhra Pradesh,East Godavari,MUMMIDIVARAM,chc,Mummidivaram,NA,16.6415,82.104296,Y,Physical,Rural,Public,NA
+Andhra Pradesh,West Godavari,Penugonda,chc,Penugonda,NA,16.654724,81.744517,Y,Physical,Rural,Public,NA
+Andhra Pradesh,East Godavari,T KOTHAPALLI,chc,T. Kothapalli,NA,16.663791,82.205347,Y,Physical,Rural,Public,NA
+Andhra Pradesh,East Godavari,Kothapet  (APVVP),chc,Kothapet APVVP,NA,16.716015,81.895785,Y,Physical,Rural,Public,NA
+Andhra Pradesh,East Godavari,Kapileswarpuram,chc,Kapileswarpuram,NA,16.740616,81.919378,Y,Physical,Rural,Public,NA
+Andhra Pradesh,West Godavari,Denduluru,chc,Denduluru,NA,16.760556,81.164167,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Krishna,Nandigama,chc,AH Nandigama,NA,16.772509,80.285935,Y,Physical,Rural,Public,1111643571
+Andhra Pradesh,Krishna,Mylavaram,chc,Mylavaram,NA,16.78,80.63,Y,Physical,Rural,Public,1111585467
+Andhra Pradesh,East Godavari,Tallarevu,chc,Tallarevu,NA,16.781928,82.232523,Y,Physical,Rural,Public,3783457652
+Andhra Pradesh,East Godavari,Alamuru,chc,Alamuru,NA,16.788975,81.883893,Y,Physical,Rural,Public,1111583181
+Andhra Pradesh,West Godavari,Bhimadole,chc,Bhimadolu,NA,16.814444,81.261667,Y,Physical,Rural,Public,NA
+Andhra Pradesh,East Godavari,R Chodavarm (APVVP),chc,R Chodavaram APVVP,NA,16.851944,82.056667,Y,Physical,Rural,Public,NA
+Andhra Pradesh,East Godavari,Mandapet,chc,Mandapet,NA,16.87,81.93,Y,Physical,Urban,Public,NA
+Andhra Pradesh,Krishna,Jaggaiahpeta,chc,Jaggaiahpeta,NA,16.9,80.1,Y,Physical,Urban,Public,1111586721
+Andhra Pradesh,East Godavari,Kadiyam,chc,Kadiyam,NA,16.906731,81.819359,Y,Physical,Rural,Public,1113733255
+Andhra Pradesh,West Godavari,Nidadavole,chc,Nidadavolu,NA,16.92,81.67,Y,Physical,Rural,Public,NA
+Andhra Pradesh,East Godavari,Anaparthy (APVVP),chc,Anaparthy APVVP,NA,16.93465,81.955119,Y,Physical,Rural,Public,1111664635
+Andhra Pradesh,Krishna,Vissannapeta,chc,Vissannapeta,NA,16.938464,80.78677,Y,Physical,Rural,Public,1111586366
+Andhra Pradesh,East Godavari,Pedapudi,chc,Pedapudi,NA,16.952348,82.130561,Y,Physical,Rural,Public,1111657761
+Andhra Pradesh,West Godavari,Nidadavole,chc,AH Kovvur,NA,17.012819,81.725294,Y,Physical,Rural,Public,NA
+Andhra Pradesh,East Godavari,Samalkot,chc,Samalkot,NA,17.0531,82.1695,Y,Physical,Urban,Public,NA
+Andhra Pradesh,West Godavari,Chintalapudi,chc,Chintalapudi,NA,17.069681,80.987596,Y,Physical,Rural,Public,NA
+Andhra Pradesh,East Godavari,Peddapuram,chc,Peddapuram,NA,17.076436,82.135109,Y,Physical,Rural,Public,6166155413
+Andhra Pradesh,West Godavari,Gopalapuram,chc,Gopalapuram,NA,17.101944,81.040962,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Krishna,Tiruvuru,chc,AH Tiruvuru,NA,17.108818,80.608014,Y,Physical,Rural,Public,1111641476
+Andhra Pradesh,East Godavari,Pithapuram,chc,Pithapuram,NA,17.112427,82.252898,Y,Physical,Urban,Public,NA
+Andhra Pradesh,East Godavari,Jaggampeta,chc,Jaggampeta,NA,17.171143,82.06367,Y,Physical,Rural,Public,7681812785
+Andhra Pradesh,West Godavari,Buttayagudem,chc,Buttaigudem,NA,17.192844,81.280278,Y,Physical,Rural,Public,NA
+Andhra Pradesh,East Godavari,Prathipadu,chc,Prathipadu APVVP,NA,17.228882,82.191756,Y,Physical,Rural,Public,NA
+Andhra Pradesh,West Godavari,Polavaram,chc,Polavaram,NA,17.247893,81.643235,Y,Physical,Rural,Public,NA
+Andhra Pradesh,East Godavari,Gokavaram,chc,Gokavaram,NA,17.256323,81.848391,Y,Physical,Rural,Public,4161252624
+Andhra Pradesh,East Godavari,Yeleswaram,chc,Yeleswaram,NA,17.28651,82.109909,Y,Physical,Rural,Public,1111661870
+Andhra Pradesh,East Godavari,Rowthulapudi,chc,Rowthulapudi,NA,17.37725,82.368917,Y,Physical,Rural,Public,NA
+Andhra Pradesh,Vishakapatnam,Nakkapalli,chc,CHC Nakkapalli,NA,17.412086,82.729319,Y,Physical,Rural,Public,1111666374
+Andhra Pradesh,East Godavari,Addateegala,chc,Addateegala,NA,17.476058,82.021641,Y,Physical,Rural,Public,1111723340

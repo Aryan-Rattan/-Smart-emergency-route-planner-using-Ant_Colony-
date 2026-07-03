@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emergency Route Planner</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+      #map {
+        height: 95vh;
+        width: 100%;
+      }
+      .control-panel {
+        padding: 15px;
+        background: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 1000;
+        border-radius: 5px;
+        max-width: 350px;
+      }
+      .loading {
+        display: none;
+        color: #dc3545;
+      }
+      .error-message {
+        color: #dc3545;
+        margin-top: 10px;
+        font-weight: bold;
+      }
+      .location-info {
+        margin-top: 10px;
+        font-style: italic;
+        color: #0275d8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="control-panel">
+      <select id="hospital-select">
+        <option value="">Nearest Hospital</option>
+        {% for hospital in hospitals %}
+        <option value="{{ hospital.Name }}">{{ hospital.Name }}</option>
+        {% endfor %}
+      </select>
+      <button onclick="getRoute()">Find Optimal Route</button>
+      <div class="location-info">
+        Click anywhere on map to select your location
+      </div>
+      <div id="info-box"></div>
+      <div class="loading" id="loading">Calculating optimal route...</div>
+    </div>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+      // Hospital data from Flask
+      const hospitals = {{ hospitals|tojson }};
+
+      // Variables for storing selected location
+      let userMarker = null;
+      let selectedLat = null;
+      let selectedLng = null;
+
+      // Custom icons
+      const userIcon = L.icon({
+          iconUrl: 'https://cdn-icons-png.flaticon.com/512/684/684908.png', // red pin
+          iconSize: [32, 32],
+          iconAnchor: [16, 32],
+          popupAnchor: [0, -32]
+      });
+      const blueHospitalIcon = L.icon({
+          iconUrl: 'https://cdn-icons-png.flaticon.com/512/252/252025.png', // blue pin
+          iconSize: [32, 32],
+          iconAnchor: [16, 32],
+          popupAnchor: [0, -32]
+      });
+      const magentaHospitalIcon = L.icon({
+          iconUrl: 'https://cdn-icons-png.flaticon.com/512/2776/2776067.png', // magenta pin
+          iconSize: [48, 48],
+          iconAnchor: [24, 48],
+          popupAnchor: [0, -48]
+      });
+
+      // Initialize map with better defaults
+      const map = L.map('map', {
+        minZoom: 2,
+        maxZoom: 18,
+        zoomControl: true
+      }).setView([20.5937, 78.9629], 5);
+
+      // Handle map clicks to set user location
+      map.on('click', function(e) {
+        selectedLat = e.latlng.lat;
+        selectedLng = e.latlng.lng;
+
+        // Remove previous marker if exists
+        if (userMarker) {
+          map.removeLayer(userMarker);
+        }
+
+        // Place a marker where the user clicked
+        userMarker = L.marker([selectedLat, selectedLng], {icon: userIcon})
+            .bindPopup("Selected Location")
+            .addTo(map)
+            .openPopup();
+      });
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '© OpenStreetMap contributors'
+      }).addTo(map);
+
+      // Add all hospitals as blue pin markers
+      const hospitalLayer = L.layerGroup().addTo(map);
+      hospitals.forEach(hospital => {
+          if (hospital.Latitude && hospital.Longitude) {
+              L.marker([hospital.Latitude, hospital.Longitude], {icon: blueHospitalIcon})
+                  .bindPopup(hospital.Name || "Hospital")
+                  .addTo(hospitalLayer);
+          }
+      });
+
+      // Layer control (optional)
+      const baseMaps = {};
+      const overlayMaps = { "Hospitals": hospitalLayer };
+      L.control.layers(baseMaps, overlayMaps, {collapsed: true}).addTo(map);
+
+      // Route layer
+      let routeLayer = L.layerGroup().addTo(map);
+
+      function getRoute() {
+          document.getElementById('loading').style.display = 'block';
+          document.getElementById('info-box').innerHTML = ''; // Clear previous results
+
+          const hospitalName = document.getElementById('hospital-select').value;
+
+          // Use selected location if available, otherwise use geolocation
+          if (selectedLat !== null && selectedLng !== null) {
+              sendRouteRequest(selectedLat, selectedLng, hospitalName);
+          } else {
+              navigator.geolocation.getCurrentPosition(position => {
+                  sendRouteRequest(position.coords.latitude, position.coords.longitude, hospitalName);
+              }, error => {
+                  alert("Please enable location access or click on the map to select a location.");
+                  document.getElementById('loading').style.display = 'none';
+              });
+          }
+      }
+
+      function sendRouteRequest(lat, lng, hospitalName) {
+          console.log("Sending request to find route to:", hospitalName);
+          console.log("From coordinates:", lat, lng);
+
+          fetch('/plan_route', {
+              method: 'POST',
+              headers: {'Content-Type': 'application/json'},
+              body: JSON.stringify({
+                  current_latitude: lat,
+                  current_longitude: lng,
+                  hospital_name: hospitalName
+              })
+          })
+          .then(res => {
+              if (!res.ok) {
+                  throw new Error(`HTTP error! Status: ${res.status}`);
+              }
+              return res.json();
+          })
+          .then(data => {
+              console.log("Route data received:", data);
+              routeLayer.clearLayers();
+
+              if (data.error) {
+                  console.error("Error:", data.error);
+                  document.getElementById('info-box').innerHTML = `
+                      <div class="error-message">Error: ${data.error}</div>
+                  `;
+                  return;
+              }
+
+              // Draw route if coordinates exist
+              if (data.route_coords && data.route_coords.length > 0) {
+                  console.log(`Drawing route with ${data.route_coords.length} points`);
+                  const coords = data.route_coords.map(c => [c[0], c[1]]);
+
+                  const routeLine = L.polyline(coords, {
+                      color: '#0074D9',  // Changed to blue
+                      weight: 6,         // Slightly thicker
+                      opacity: 0.85,     // More solid
+                      lineJoin: 'round', // Rounded corners
+                      lineCap: 'round'   // Rounded ends
+                  }).addTo(routeLayer);
+
+                  // User marker
+                  L.marker([lat, lng], {icon: userIcon})
+                      .bindPopup("Your Location")
+                      .addTo(routeLayer);
+
+                  // Destination hospital marker
+                  L.marker([data.target_hospital.lat, data.target_hospital.lng], {icon: magentaHospitalIcon})
+                      .bindPopup(`<b>${data.target_hospital.name}</b>`)
+                      .addTo(routeLayer);
+
+                  // Ensure map shows the entire route
+                  try {
+                      const bounds = L.latLngBounds(coords);
+                      if (bounds.isValid()) {
+                          map.fitBounds(bounds, {
+                              padding: [50, 50]
+                          });
+                      } else {
+                          // Fallback: zoom to show both endpoints
+                          map.fitBounds([
+                              [lat, lng],
+                              [data.target_hospital.lat, data.target_hospital.lng]
+                          ], { padding: [50, 50] });
+                      }
+                  } catch (e) {
+                      console.error("Error fitting bounds:", e);
+                      // Fallback center on hospital
+                      map.setView([data.target_hospital.lat, data.target_hospital.lng], 12);
+                  }
+
+                  // Info box
+                  document.getElementById('info-box').innerHTML = `
+                      <b>Emergency Route Found:</b><br>
+                      <img src="https://cdn-icons-png.flaticon.com/512/2776/2776067.png" width="24" style="vertical-align:middle;margin-right:4px;">
+                      ${data.target_hospital.name}<br>
+                      <img src="https://cdn-icons-png.flaticon.com/512/60/60781.png" width="18" style="vertical-align:middle;margin-right:4px;">
+                      Distance: ${data.distance_km} km<br>
+                      <img src="https://cdn-icons-png.flaticon.com/512/61/61112.png" width="18" style="vertical-align:middle;margin-right:4px;">
+                      ETA: ${data.time_min} mins
+                  `;
+              } else {
+                  console.error("No route coordinates in response");
+                  document.getElementById('info-box').innerHTML = `
+                      <div class="error-message">No route found between locations</div>
+                  `;
+
+                  // Still show the hospital and user markers
+                  L.marker([lat, lng], {icon: userIcon})
+                      .bindPopup("Your Location")
+                      .addTo(routeLayer);
+
+                  if (data.target_hospital) {
+                      L.marker([data.target_hospital.lat, data.target_hospital.lng], {icon: magentaHospitalIcon})
+                          .bindPopup(`<b>${data.target_hospital.name}</b>`)
+                          .addTo(routeLayer);
+
+                      // Zoom to show both points
+                      map.fitBounds([
+                          [lat, lng],
+                          [data.target_hospital.lat, data.target_hospital.lng]
+                      ], { padding: [50, 50] });
+                  }
+              }
+          })
+          .catch(error => {
+              console.error('Error:', error);
+              document.getElementById('info-box').innerHTML = `
+                  <div class="error-message">Error finding route: ${error.message}</div>
+              `;
+              
+          })
+          .finally(() => {
+              document.getElementById('loading').style.display = 'none';
+          });
+      }
+    </script>
+  </body>
+</html>
